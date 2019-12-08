@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-    width: 904px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ a {
 
 .section {
     padding-bottom: 70px;
+    font-size: 0;
 }
 
 .block {
@@ -95,6 +96,10 @@ p {
     background-color: #fff;
     border: 1px solid  #626262;
     color: #626262
+}
+
+.button:hover {
+    color: #03a9f4;
 }
 
 
