@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  margin: 0;
 }
   
 *,
@@ -42,7 +43,7 @@ img {
 .menu {
   float: right;
   margin: 0;
-  font-size: 0px;
+  padding: 0;
   list-style: none;
   text-align: center;
 }
@@ -82,22 +83,23 @@ img {
   content: "";
   display: table;
   clear: both;
-  margin: 32px auto;
+  margin: 32px auto 0;
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
 }
 
-.container {
-  width: 1150px;
-    margin: 0;
-}
 
 .featured-products {
   margin: 0;
   padding: 0;
   margin-bottom: 105px;   
   font-size: 0;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
 }
 
 .product-menu {
@@ -115,9 +117,12 @@ img {
   margin-bottom: 30px;
 }
 
-.product-menu li:nth-child(4n) {
-  margin-left: 0;
-  margin-bottom: 0;
+.featured-block-items:nth-child(4) {
+  margin-right: 0;
+}
+
+.featured-block-items:nth-child(8) {
+  margin-right: 0;
 }
 
 .featured-block-items:hover .blok-name-price {
@@ -159,8 +164,9 @@ img {
   background-color:#ffffff71 ;
 }
 
-.lates-news {
-  list-style: none;
+.section-lates-news {
+  margin: 0;
+  padding-bottom: 81px;
 }
 
 .box-lates-news {
@@ -181,11 +187,12 @@ img {
 
 .blok-news img {
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .title {
   margin: 0;
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 18px;
   color: #555252;
@@ -196,7 +203,7 @@ img {
   display: block;
   width: 136px;
   height: 3px;
-  margin: 15px 0 30px;
+  margin: 15px 0;
   background-color: #4ec6ab;
 }
 
@@ -207,9 +214,8 @@ img {
   color: #828080;
 }
 
-.button {
+.button-link {
   display: inline-block;
-  margin-bottom: 81px;
   color:  #ffffff;;
   padding: 20px 42px 20px 45px;
   background-color: #4ec6ab;
@@ -219,5 +225,8 @@ img {
   border: none;
 }
 
+.button-link:hover {
+  background: #1abc9c79;
+}
 
 

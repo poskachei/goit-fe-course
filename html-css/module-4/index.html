@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Module-4</title>
 
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    
+
+    <link rel="stylesheet" href="css/style.css">   
 </head>
 
 <body>
     <header class="header">
-            <nav class="navigation">
-                 <a href="#" class="logo"></a>
-                   <img src="images/logo.png" alt="logo" width="78px" height="21px">
+            <nav class="navigation clearfix">
+                 <a href="#" class="logo"><img src="images/logo.png" alt="logo" width="78px" height="21px"></a>
                     <ul class="menu clearfix">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
@@ -28,11 +27,11 @@
             </nav>                  
     </header>
 
-        <main class="container">
+        <main>
 
             <section class="featured-products">
-                    
-                <h1 class="heading">FEATURED PRODUCTS</h1>
+              <div class="container">     
+                <h2 class="heading">FEATURED PRODUCTS</h2>
 
                   <ul class="product-menu clearfix">
 
@@ -41,7 +40,7 @@
                         <img src="images/card1.jpg" alt="">
                            <div class="blok-name-price clearfix">
                                <p class="name-product">blue tshirt</p>
-                               <p class="price">$26</p></li>
+                               <p class="price">$26</p>
                            </div>                             
                         </a>
                     </li>
@@ -109,37 +108,38 @@
                             </a>       
                     </li>
                   </ul>
-                    
-                
+              </div>                     
             </section>
 
-            <section class="lates-news">
-                 <h1 class="heading">LATEST NEWS</h1>
-                 <ul class="box-lates-news">
+            <section class="section-lates-news"> 
+              <div class="container">
+                 <h2 class="heading">LATEST NEWS</h2>
+                   <ul class="box-lates-news clearfix">
                      <li class="blok-news">
                          <img src="images/bog1.jpg" alt="">
                          <p class="title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
                          <p class="text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
 
-                         <button class="button">Read More</button>
+                         <a href="#" class="button-link">Read More</a>
                      </li>
                      <li class="blok-news">
                          <img src="images/bog2.jpg" alt="">
                          <p class="title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
                          <p class="text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
                           
-                         <button class="button">Read More</button>
-                     </li>
-                     
+                         <a href="#" class="button-link">Read More</a>
+                     </li>                     
                      <li class="blok-news">
                          <img src="images/bog3.jpg" alt="">
                          <p class="title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</p>
                          <p class="text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt</p>
                          
-                         <button class="button">Read More</button>
+                         <a href="#" class="button-link">Read More</a>
                      </li>
-                 </ul>
+                   </ul>
+              </div>  
             </section>
+
         </main>
     
 </body>
