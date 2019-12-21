@@ -3,7 +3,8 @@ html {
 }
   
 *,
-*::after {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
 }
@@ -27,24 +28,36 @@ img {
   clear: both;
 }
 
-.header {
-  width: 1600px;
-}
+/*---------navigation----------*/
+
 
 .navigation {
   width: 1110px;
   margin: 0 auto;
-  padding: 43px 0;
+  margin-bottom: 32px;
+  padding: 38px 0 32px;
 }
 
 .logo {
   float: left;
+  text-decoration: none;
+}
+
+.logo h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #8e8c8c;
+  line-height: 28px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.logo::first-letter {
+  font-weight: 900;
+  color:#29bea0;
 }
 
 .menu {
   float: right;
-  margin: 0;
-  padding: 0;
   list-style: none;
   text-align: center;
 }
@@ -55,7 +68,9 @@ img {
 }
 
 .menu a {
+  display: block;
   font-family: 'Myriad Pro-Bold', sans-serif;
+  text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
   color: #1f1212;
@@ -63,22 +78,33 @@ img {
   line-height: 11px;
 }
 
-.menu a:hover,
-.menu a:focus {
-    color: #29c0a3;
+.menu a:hover {
+  color: #29c0a3;
 }    
 
+
+/*--------slider-container---------*/
+
 .slider-container {
-  position: relative;
   margin: 0 auto;
-  width: 1600px;
+  width: 1110px;
+  height: 602px;
+}
+
+.slider-container img {
   height: 602px;
 }
 
 .slider-box {
-  width: auto;
-  height: 602px;
+  position: relative;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.slides {
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
@@ -88,38 +114,40 @@ button {
   display: inline-block;
   width: 105px;
   height: 105px;
+  margin: 0 auto;
   padding: 0;
   border: none;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 250px;
   background-color: #1abc9c;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .previous {
-  left: 243px;
+  left: 100px;
+  background-image: url('../images/icon/Arrow-prev.png');
 }
 
 .following {
-  right: 243px;
+  right:100px;
+  background-image: url('../images/icon/Arrow.png');
 }
  
 
 .description {
-    color:  white;
-    font-size: 0;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 282px;
-    left: 430px;
+  color:  white;
+  font-size: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  bottom: 270px;
+  left: 270px;
+  position: absolute;
 }
 
 .description h2 {
-  margin: 0;
   font-size: 40px;
   font-weight: 900;
-  letter-spacing:  -1.1px;
   text-transform: uppercase
 }
 
@@ -129,13 +157,20 @@ button {
 }
 
 
+/*------------new-collection ---*/
+
+
 .new-collection {
-  width: 1600px;
   margin: 0 auto;
   padding-top: 101px; 
   padding-bottom: 100px;
   font-size: 0;
   background-color: #e9f0fd;
+}
+
+.new-collection-container {
+  width: 1110px;
+  margin: 0 auto;
 }
 
 .heading {
@@ -160,7 +195,8 @@ button {
 
 
 .product-menu {
-  padding: 0 245px;
+  margin: 0;
+  padding: 0;
 }
 
 .product-menu a {
@@ -176,15 +212,87 @@ button {
 }
 
 .overlay-container {
-  margin: 5px 5px 5px 5px;
   position: absolute;
-  width: 245px;
-  height: 271px;
+  width: 236px;
+  height: 262px;
+  margin: 10px;
+  padding: 0;
   background-color: #737373;
   opacity: 0;
-  
 }
 
+.icon-items {
+  width: 236px;
+  height: 262px;
+  float: left;
+  position: absolute ; 
+}
+
+
+.icon-items button:nth-child(3) {
+  margin-right: 0;
+}
+
+.icon-items button:nth-child(4) {
+  margin: 0;
+}
+
+
+.overlay-icon {
+  font-size: 14px;
+  text-decoration: none;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-bottom: 7px;   
+  background-image: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay-icon:hover{
+  border: none;
+  background-color: #1abc9c; 
+}
+
+.like {
+  background-image: url('../images/icon/like.png');
+  top: 80px;
+  left: 35px;
+}
+
+.compare {
+  background-image: url('../images/icon/compare.png');
+  top: 80px;
+  left: 94px;
+}
+
+.history {
+  background-image: url('../images/icon/history.png');
+  top: 80px;
+  right: 35px;
+}
+
+.buy {
+  background-image: url('../images/icon/buy.png');
+  background-color: black;
+  background-position: 15px 10px;
+  width: 167px;
+  left: 35px;
+  bottom: 76px;
+  /*opacity: 1;*/
+}
+
+.text-icon{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: ivory;
+  position: absolute;
+  top: 15px;
+  right: 13px;
+}
 
 .product-menu li:nth-last-child(1) {
   margin-right: 0;
@@ -231,14 +339,15 @@ button {
   padding: 10px;
   text-align: center;
   width: 54px;
-  height: 38px;
   background-color:#ffffff71 ;
 }
 
+
+/*-----footer-------*/
+
 .footer {
-  width: 1600px;
   height: 88px;
-  margin: auto;
+  margin: 0 auto;
   height: 88px;
   background-color: #323232;
 }
