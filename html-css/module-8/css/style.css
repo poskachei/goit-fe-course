@@ -1,0 +1,191 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/homework-08_Desktop.jpg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+    
+
+.site-header {
+    min-width: 320px;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 176px;  
+}
+
+.button-header {
+    width: 90px;
+    height: 36px;
+    font-size: 14px; 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    border: 2px solid;
+}
+
+
+
+.baner {
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 304px;
+}
+
+.container h2 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-transform: uppercase;;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.container p { 
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 34px;
+}
+
+.container button {
+    width: 225px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #ff4e50;
+}
+
+.container h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 18px;
+}
+
+
+.icons-advertising {
+   display: block;
+   list-style: none;
+}
+
+.icons-advertising li {
+    margin-bottom: 30px;
+}
+
+
+.icons-advertising h3 {
+    font-size: 14px;
+    padding: 21px 0;
+}
+
+.icons-advertising p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 14px;
+    color: #8f8f8f;
+    text-align: center;
+}
+
+.container .button-partners {
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    background-color: transparent;
+    margin-bottom: 58px;
+}
+
+.container .button-partners:hover {
+    color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .site-header {
+        padding: 48px 48px 160px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }    
+
+    .logo {
+        margin: auto 0;
+    }
+
+
+    .baner {
+        padding-top: 0;
+    }
+
+    .icons-advertising {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    .icons-advertising li {
+       width: 45%;
+    }
+
+    .icons-advertising li:nth-child(2n+1) {
+        margin-right: 22px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    
+    .icons-advertising li {
+        margin: 0 auto;
+        width: 20%;
+    }
+
+}
