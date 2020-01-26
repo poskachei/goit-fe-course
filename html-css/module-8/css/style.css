@@ -11,9 +11,10 @@ html {
 }
 
 body {
-    background-image: url('../images/homework-08_Desktop.jpg');
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
+    
 
 .container {
     width: 320px;
@@ -21,19 +22,35 @@ body {
     padding: 0 20px;
     text-align: center;
 }
-    
+  
+.body-baner {
+    height: 701px;
+    background-image: url('../images/homework-08_Desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 70px;
+}
+
 
 .site-header {
     min-width: 320px;
     font-family: 'Montserrat';
     color: #fff;
     text-align: center;
+    background-image: url('../images/homework-08_Desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
 }
+
 
 .logo {
     display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 20px;
     margin-top: 176px;  
+    text-decoration: none;
+    color: #fff;
 }
 
 .button-header {
@@ -65,7 +82,7 @@ body {
 .container h2 {
     font-family: 'Montserrat';
     font-size: 30px;
-    text-transform: uppercase;;
+    text-transform: uppercase;
     color: #fff;
     text-align: center;
     padding-bottom: 22px;
@@ -101,21 +118,28 @@ body {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 22px;
-    padding-bottom: 18px;
+    padding-bottom: 36px;
 }
 
+
+.section-best-holiday {
+    padding-bottom: 74px;
+}
 
 .icons-advertising {
    display: block;
    list-style: none;
 }
 
+
 .icons-advertising li {
     margin-bottom: 30px;
 }
 
 
-.icons-advertising h3 {
+.icons-advertising h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 14px;
     padding: 21px 0;
 }
@@ -132,7 +156,6 @@ body {
     color: #ff4e50;
     border: 2px solid #ff4e50;
     background-color: transparent;
-    margin-bottom: 58px;
 }
 
 .container .button-partners:hover {
