@@ -1,39 +1,19 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-    
 
 .container {
-    width: 320px;
-    margin: 0 auto;
-    padding: 0 20px;
     text-align: center;
 }
   
 .body-baner {
-    height: 701px;
+    height: 700px;
     background-image: url('../images/homework-08_Desktop.jpg');
     background-repeat: no-repeat;
     background-position: top;
-    margin-bottom: 70px;
 }
 
 
 .site-header {
-    min-width: 320px;
+    margin: 0 auto;
+    padding: 0;
     font-family: 'Montserrat';
     color: #fff;
     text-align: center;
@@ -45,12 +25,11 @@ body {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 20px;
-    margin-top: 176px;  
     text-decoration: none;
     color: #fff;
 }
 
-.button-header {
+.site-header .button-header {
     width: 90px;
     height: 36px;
     font-size: 14px; 
@@ -73,11 +52,11 @@ body {
 .baner {
     margin: 0 auto;
     padding-top: 160px;
-    padding-bottom: 304px;
 }
 
-.container h2 {
+.baner-info h2 {
     font-family: 'Montserrat';
+    font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     color: #fff;
@@ -85,7 +64,7 @@ body {
     padding-bottom: 22px;
 }
 
-.container p { 
+.baner-info p { 
     font-family: 'Roboto';
     font-size: 18px;
     font-weight: 300;
@@ -93,7 +72,7 @@ body {
     padding-bottom: 34px;
 }
 
-.container button {
+.baner-info .button-partner {
     width: 225px;
     height: 40px;
     font-family: 'Montserrat';
@@ -107,7 +86,7 @@ body {
     cursor: pointer;
 }
 
-.container button:hover {
+.baner-info button:hover {
     background-color: #ff4e50;
 }
 
@@ -149,63 +128,17 @@ body {
     text-align: center;
 }
 
-.container .button-partners {
+.partner-info .button-other {
     color: #ff4e50;
     border: 2px solid #ff4e50;
     background-color: transparent;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
 }
 
-.container .button-partners:hover {
+.partner-info .button-other:hover {
+    background-color: #ff4e50;
     color: #fff;
 }
 
-
-@media (min-width: 768px) {
-    .container {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .site-header {
-        padding: 48px 48px 160px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }    
-
-    .logo {
-        margin: auto 0;
-    }
-
-
-    .baner {
-        padding-top: 0;
-    }
-
-    .icons-advertising {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-left: 140px;
-        padding-right: 140px;
-    }
-
-    .icons-advertising li {
-       width: 45%;
-    }
-
-    .icons-advertising li:nth-child(2n+1) {
-        margin-right: 22px;
-    }
-
-}
-
-@media (min-width: 1024px) {
-    
-    .icons-advertising li {
-        margin: 0 auto;
-        width: 20%;
-    }
-
-}
