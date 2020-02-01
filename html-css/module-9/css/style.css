@@ -32,14 +32,14 @@
     margin-bottom: 126px;
     color: #fff;
     background-color: transparent;
-    border: transparent;
+    border: 2px solid transparent;
     border-radius: 25px;
     outline: none;
     cursor: pointer;
 }
 
-.button-header:hover {
-    border: 2px solid;
+.site-header .button-header:hover {
+   border: 2px solid;
 }
 
 
