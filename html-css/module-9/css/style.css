@@ -1,27 +1,23 @@
-
-.container {
-    text-align: center;
-}
-  
+ 
 .body-baner {
-    height: 700px;
     background-image: url('../images/homework-08_Desktop.jpg');
     background-repeat: no-repeat;
     background-position: top;
 }
 
+.container {
+    max-width: 940px;
+}
 
 .site-header {
-    margin: 0 auto;
-    padding: 0;
+    height: 700px;
     font-family: 'Montserrat';
     color: #fff;
     text-align: center;
 }
 
 
-.logo {
-    display: inline-block;
+.site-header .logo {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 20px;
@@ -30,11 +26,10 @@
 }
 
 .site-header .button-header {
-    width: 90px;
-    height: 36px;
     font-size: 14px; 
     font-family: 'Montserrat';
     font-weight: 700;
+    margin-bottom: 126px;
     color: #fff;
     background-color: transparent;
     border: transparent;
@@ -47,12 +42,6 @@
     border: 2px solid;
 }
 
-
-
-.baner {
-    margin: 0 auto;
-    padding-top: 160px;
-}
 
 .baner-info h2 {
     font-family: 'Montserrat';
@@ -90,7 +79,11 @@
     background-color: #ff4e50;
 }
 
-.container h3 {
+.partner-info {
+    text-align: center;
+}
+
+.partner-info h3 {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 22px;

@@ -1,0 +1,17 @@
+@media (min-width:768px) {
+    .logo {
+        padding: 0;
+    }
+
+    .baner-info h2 {
+        margin-bottom: 40px;
+        padding: 0;
+        font-size: 52px;
+        line-height: 54px;
+    }
+    .baner-info p {
+        line-height: 26px;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
