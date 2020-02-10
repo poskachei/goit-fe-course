@@ -134,6 +134,7 @@ img {
     display: block;
     width: 20px;
     height: 20px;
+    color: #fff;
 }
 
 .site-baner__heading {
@@ -384,6 +385,11 @@ img {
     transition: linear 200ms;
 }
 
+.section__list svg {
+    width: 26px;
+    height: 26px;
+    color: #f38181;
+}
 
 /*-------------footer--------*/
 
