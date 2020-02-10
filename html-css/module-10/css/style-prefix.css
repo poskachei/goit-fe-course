@@ -134,7 +134,7 @@ img {
     display: block;
     width: 20px;
     height: 20px;
-    color: #fff;
+    fill: #ffffff;
 }
 
 .site-baner__heading {
@@ -386,9 +386,14 @@ img {
 }
 
 .section__list svg {
-    width: 26px;
-    height: 26px;
-    color: #f38181;
+    display: block;
+    width: 28px;
+    height: 28px;
+    fill: #f38181;
+}
+
+.team-link:hover .section__list svg {
+    fill: #ffffff;
 }
 
 /*-------------footer--------*/
