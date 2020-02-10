@@ -58,7 +58,7 @@ img {
 
 .site-baner {
     height: 1000px;
-    background-image: url('../images/baner.png');
+    background-image: url('../images/baner-min.png');
 }
 
 
@@ -350,13 +350,13 @@ img {
     transition: linear 200ms;
 }
 
-.btn-icon__svg {
+.team__link--icon {
     width: 28px;
     height: 28px;
     fill: #f38181;
 }
 
-.team-link:hover .btn-icon__svg {
+.team-link:hover .team__link--icon {
     fill: #ffffff;
 }
 
