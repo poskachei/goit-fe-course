@@ -356,13 +356,13 @@ img {
 }
 
 .team__link--icon {
-    width: 55px;
+    width: 28px;
     height: 56px;
     fill: #f38181;
 }
 
-.team__link:hover .team__link--icon:hover {
-    background-color: #ffffff;
+.team__link:hover .team__link--icon {
+    fill: #ffffff;
 }
 
 /*-------------footer--------*/

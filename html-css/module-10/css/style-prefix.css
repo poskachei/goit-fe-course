@@ -393,13 +393,13 @@ img {
 
 .team__link--icon {
     display: block;
-    width: 55px;
+    width: 28px;
     height: 56px;
     fill: #f38181;
 }
 
 .team__link:hover .team__link--icon {
-    background-color: #ffffff;
+    fill: #ffffff;
 }
 
 /*-------------footer--------*/
