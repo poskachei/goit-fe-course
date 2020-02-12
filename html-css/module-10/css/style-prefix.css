@@ -395,12 +395,13 @@ img {
     display: block;
     width: 28px;
     height: 28px;
-    margin: auto;
+    top: 50%;
+    right: 50%;
     fill: #f38181;
 }
 
-.team__link:hover .team__link--icon:hover {
-    fill: #ffffff;
+.team__link:hover .team__link--icon {
+    background-color: #ffffff;
 }
 
 /*-------------footer--------*/
