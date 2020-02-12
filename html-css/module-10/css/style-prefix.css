@@ -393,10 +393,8 @@ img {
 
 .team__link--icon {
     display: block;
-    width: 28px;
-    height: 28px;
-    top: 50%;
-    right: 50%;
+    width: 55px;
+    height: 56px;
     fill: #f38181;
 }
 
