@@ -343,13 +343,13 @@ img {
 
 
 .team__link {
+    position: relative;
     width: 55px;
     height: 56px;
     margin: 1px;
     background-color: #fce38a;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
 }
 
 .team__link:hover{
@@ -358,9 +358,12 @@ img {
 }
 
 .team__link--icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 28px;
     height: 30px;
-    padding: auto;
     fill: #f38181;
 }
 
