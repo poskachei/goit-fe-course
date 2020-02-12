@@ -14,9 +14,14 @@ body {
     padding: 0;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -59,11 +64,11 @@ img {
 .site-baner {
     height: 1000px;
     background-image: url('../images/baner-min.png');
+    background-position: center;
 }
 
 
 .site-navigation {
-    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -73,6 +78,7 @@ img {
 
 .site-logo {
     font-size: 30px;
+    font-weight: 700;
     text-decoration: none;
     color: #ffffff;
 }
@@ -152,7 +158,6 @@ img {
 .services {
     margin: 0 auto;
     padding: 0;
-    width: 1202px;
 }
 
 .section__title {
@@ -253,7 +258,7 @@ img {
     background-repeat: no-repeat;
 }    
 
-.services__item--title {
+.services__item-title {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
@@ -261,7 +266,7 @@ img {
     margin-bottom: 20px;
 }
 
-.services__item--text {
+.services__item-text {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #b3b3b3;
@@ -286,7 +291,7 @@ img {
 }
 
 
-.team__item--title {
+.team__item-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     text-transform: uppercase; 
@@ -296,7 +301,7 @@ img {
     font-weight: 300;
 }
 
-.team__item--text {
+.team__item-text {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-style: italic;
@@ -356,7 +361,7 @@ img {
     fill: #f38181;
 }
 
-.team-link:hover .team__link--icon {
+.team__link--icon:hover {
     fill: #ffffff;
 }
 
