@@ -71,7 +71,7 @@ img {
 /*-------navigation--------*/
 
 .site-baner {
-    height: 1000px;
+    height: 900px;
     background-image: url('../images/baner-min.png');
     background-position: center;
 }
@@ -159,6 +159,7 @@ img {
 .site-baner__btn {
     display: block;
     margin:0 auto;
+    margin-bottom: 200px;
     color: #fff;
     font-family:'Montserrat';
     font-weight: bold;
@@ -355,9 +356,9 @@ img {
   height: 470px;
   bottom: 0;
   top: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ed8989), to(#e6d184) );
-  background: -o-linear-gradient(top, #ed8989, #e6d184 );
-  background: linear-gradient(to bottom, #ed8989, #e6d184 );
+  background: -webkit-gradient( linear,left top, left bottom,from(rgba(243,129,129,0.5)),to(rgba(252,227,138,0.5))); 
+  background: -o-linear-gradient( rgba(243,129,129,0.5),rgba(252,227,138,0.5)); 
+  background: linear-gradient( rgba(243,129,129,0.5),rgba(252,227,138,0.5));
   opacity: 0;
 }
 
@@ -371,7 +372,7 @@ img {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center; 
-   opacity: 0.9;
+   opacity: 1;
 }
 
 
@@ -382,6 +383,7 @@ img {
     background-color: #fce38a;
     background-repeat: no-repeat;
     background-position: center;
+    text-align: center;
 }
 
 .team__link:hover{
