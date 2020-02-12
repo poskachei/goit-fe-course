@@ -397,6 +397,7 @@ img {
     display: block;
     width: 28px;
     height: 30px;
+    padding: auto;
     fill: #f38181;
 }
 

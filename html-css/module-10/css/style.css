@@ -360,6 +360,7 @@ img {
 .team__link--icon {
     width: 28px;
     height: 30px;
+    padding: auto;
     fill: #f38181;
 }
 
