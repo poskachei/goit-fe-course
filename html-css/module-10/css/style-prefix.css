@@ -395,11 +395,11 @@ img {
     display: block;
     width: 28px;
     height: 28px;
-    margin: 0;
+    margin: auto;
     fill: #f38181;
 }
 
-.team__link--icon:hover {
+.team__link:hover .team__link--icon:hover {
     fill: #ffffff;
 }
 

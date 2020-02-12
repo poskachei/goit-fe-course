@@ -358,10 +358,11 @@ img {
 .team__link--icon {
     width: 28px;
     height: 28px;
+    margin: auto;
     fill: #f38181;
 }
 
-.team__link--icon:hover {
+.team__link:hover .team__link--icon:hover {
     fill: #ffffff;
 }
 
