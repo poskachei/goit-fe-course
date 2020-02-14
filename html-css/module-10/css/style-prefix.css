@@ -377,6 +377,15 @@ img {
 
 
 .team__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 55px;
     height: 56px;
     margin: 1px;
@@ -405,7 +414,7 @@ img {
 /*-------------footer--------*/
 
 .footer-info {
-    width: 1202px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -441,8 +450,7 @@ img {
 }
 
 .subscribe input {
-    height: 40px;
-    
+    height: 40px;    
 }
 
 .subscribe input[type="text"] {
@@ -455,14 +463,15 @@ img {
     opacity: 0.5;
 }
 
+
 .subscribe input[type="submit"] {
-    color: #fff;
     background-color: #95e1d3;
     width: 160px;
     font-weight: 500;
     position: relative;
     border: none;
     outline: none;
+    color: #fff;
 }
 
 .subscribe input[type="submit"]:hover {

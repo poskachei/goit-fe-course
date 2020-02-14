@@ -343,6 +343,9 @@ img {
 
 
 .team__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 55px;
     height: 56px;
     margin: 1px;
@@ -369,7 +372,7 @@ img {
 /*-------------footer--------*/
 
 .footer-info {
-    width: 1202px;
+    width: 1200px;
     margin: 0 auto;
 }
 
