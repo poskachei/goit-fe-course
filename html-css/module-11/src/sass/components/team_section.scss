@@ -1,0 +1,87 @@
+
+.team__item {
+
+    &-title {
+        font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase; 
+    padding-top: 31px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-weight: 300;
+    }
+
+    &-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #b3b3b3;
+    text-align: center;
+    padding-bottom: 85px;
+    }
+
+    &:hover .team__item--overlay {
+        transform: translate(-10px, -10px);
+        box-shadow: 10px 10px 0  rgba(149, 255, 211, 1);
+        transition: linear 200ms;
+    
+    }
+
+    &--overlay {
+        position: relative;
+        width: 100%;
+        font-size: 0;
+    }
+
+    &--overlay:hover .btn-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        opacity: 1;
+     }
+
+
+}
+
+
+
+.btn-icon {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  bottom: 0;
+  top: 0;
+  background: linear-gradient( rgba(243,129,129,0.5),rgba(252,227,138,0.5));
+  opacity: 0;
+}
+
+
+
+
+.team__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 56px;
+    margin: 1px;
+    background-color: $color-backgrounds-icons;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__link:hover{
+        background-color: #f38181;
+        transition: linear 200ms;
+    }
+
+    &--icon {
+        width: 28px;
+        height: 30px;
+        fill: $color-icon-cards;
+    }
+
+    &:hover .team__link--icon {
+        fill: #ffffff;
+    }  
+}
+
